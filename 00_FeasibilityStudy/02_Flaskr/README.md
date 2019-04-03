@@ -12,6 +12,8 @@ $ git clone git@github.com:dandan611/PhelenSimulator.git
 
 ```
 $ cd PhelenSimulater/00_FeasibilityStudy/02_flaskr
+$ export FLASK_APP=flaskr
+$ export FLASK_ENV=development
 $ flask init-db
 $ flask run --host=0.0.0.0 --port=8000
 ```
